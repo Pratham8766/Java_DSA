@@ -1,5 +1,6 @@
 package ArrayList;
 import java.util.ArrayList;
+import java.util.*;
 public class operations {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
@@ -29,6 +30,12 @@ public class operations {
 
         //delete
         list.remove(0);
+        System.out.println(list);
+
+        list.add(0, 20);
+        System.out.println(list);
+
+        Collections.sort(list);
         System.out.println(list);
     }
 }
