@@ -27,10 +27,12 @@ public class operations{
         System.out.println(set);
 
         //Iterating a HashSet
+        @SuppressWarnings("rawtypes")
         Iterator it = set.iterator();
         while(it.hasNext()){
             System.out.println(it.next());
         }
+        
 
     }
 }
