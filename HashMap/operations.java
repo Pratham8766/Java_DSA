@@ -37,5 +37,7 @@ public class operations {
             System.out.println(e);
         }
 
+        System.out.println(3%6);
+
     }
 }
